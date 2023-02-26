@@ -25,5 +25,11 @@ print(friend.is_sad)
 
 my_pet.play_w_human(friend)
 
-print('Сумний -', friend.is_sad)
+print('Друг сумний -', friend.is_sad)
 print(friend.is_sad)
+
+my_pet.play_w_human(me)
+
+print(me.is_sad)
+print('Я сумний -', me.is_sad)
+print(me.is_sad)
